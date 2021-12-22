@@ -1,1 +1,29 @@
-<p>auth works!hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+
+<div>auth work</div>
+
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+    <div class="form-group">
+      <label for="nom">votre nom</label>
+      <input type="text" class="form-control" id="nom" formControlName="nom">
+    </div>
+      <div class="form-group">
+      <label for="prenom">votre prénom</label>
+      <input type="text" class="form-control" id="prenom" formControlName="prenom"  >
+    </div>
+      <div class="form-group">
+      <input type="submit" class="form-control" value="valider">
+
+
+    </div>
+  </form>
+
+  <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
